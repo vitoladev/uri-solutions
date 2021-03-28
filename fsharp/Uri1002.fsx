@@ -5,4 +5,4 @@ let n = 3.14159
 
 let areaOfCircle = n * (r * r)
 
-printfn "%.4f" areaOfCircle
+printfn "A=%.4f" areaOfCircle
