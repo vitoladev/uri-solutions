@@ -1,8 +1,8 @@
 open System
 
-let sum =
+let prod =
     let a = int(Console.ReadLine())
     let b = int(Console.ReadLine())
-    a + b
+    a * b
 
-printf "SOMA = %i\n" sum
+printf "PROD = %i\n" prod

@@ -1,5 +1,6 @@
-let a = read_int();;
-let b = read_int();;
-let sum = a + b;;
+let sum =
+  let a = read_int() in
+  let b = read_int() in
+  a + b;;
 
 Printf.printf "SOMA = %i\n" sum

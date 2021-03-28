@@ -1,5 +1,7 @@
-int a = int.Parse(ReadLine());
-int b = int.Parse(ReadLine());
-int sum = a + b;
+public Func<int> sum = () => {
+    int a = int.Parse(ReadLine());
+    int b = int.Parse(ReadLine());
+    return a + b;
+};
 
-WriteLine($"SOMA = {sum}");
+WriteLine($"SOMA = {sum()}");

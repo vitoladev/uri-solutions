@@ -1,5 +1,6 @@
-a = int(input())
-b = int(input())
-sum = a + b
+def sum():
+    a = int(input())
+    b = int(input())
+    return a + b
 
-print(f"SOMA = {sum}")
+print(f"SOMA = {sum()}")
